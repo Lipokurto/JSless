@@ -3,9 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Управление элементами страницы</title>
 </head>
 <body>
+    <!-- форма поиска яндекса -->
+    <form action=''>
+        <label for='userData'>Искать в яндекс</label>
+        <input type='text' placeholder="ввод..." id='userData'>
+        <button type='button' onclick="searchMain();">Найти</button>
+    </form>
+    <button onclick="color('#ff0000')">Красный</button>
+    <button onclick="color('#00ff00')">Зеленый</button>
+    <button onclick="color('#0000ff')">Синий</button>
+    <button onclick="imageBg('img/fonarik.jpg')">Картинка</button>
+
     <script src='js/lesson04.js'></script>
 </body>
 </html>
