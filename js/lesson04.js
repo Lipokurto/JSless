@@ -12,3 +12,4 @@ function color(bgc) {
 function imageBg(source1) {
     document.body.style.backgroundImage = "url('"+source1+"')"
 }
+
